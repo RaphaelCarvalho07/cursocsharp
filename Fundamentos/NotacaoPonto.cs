@@ -14,7 +14,7 @@ namespace CursoCSharp.Fundamentos
             Console.WriteLine(saudacao);
 
             Console.WriteLine("Teste".Length);
-            /* Notação em nulo causa erro.Use navegação segura,
+            /* Notação em nulo causa erro. Use navegação segura,
             representado por sinal ? para conferir o conteúdo.
             Isso é chamado de "Navegação Segura"
             */
