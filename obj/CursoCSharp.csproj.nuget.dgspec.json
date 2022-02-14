@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos\\C#\\CursoCSharp\\CursoCSharp.csproj": {}
+    "D:\\Projetos\\C#\\cursocsharpcod3r\\CursoCSharp.csproj": {}
   },
   "projects": {
-    "D:\\Projetos\\C#\\CursoCSharp\\CursoCSharp.csproj": {
+    "D:\\Projetos\\C#\\cursocsharpcod3r\\CursoCSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\C#\\CursoCSharp\\CursoCSharp.csproj",
+        "projectUniqueName": "D:\\Projetos\\C#\\cursocsharpcod3r\\CursoCSharp.csproj",
         "projectName": "CursoCSharp",
-        "projectPath": "D:\\Projetos\\C#\\CursoCSharp\\CursoCSharp.csproj",
+        "projectPath": "D:\\Projetos\\C#\\cursocsharpcod3r\\CursoCSharp.csproj",
         "packagesPath": "C:\\Users\\Raphilske\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\C#\\CursoCSharp\\obj\\",
+        "outputPath": "D:\\Projetos\\C#\\cursocsharpcod3r\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Raphilske\\AppData\\Roaming\\NuGet\\NuGet.Config"
