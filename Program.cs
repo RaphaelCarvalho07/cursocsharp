@@ -6,9 +6,12 @@ using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.ClassesEMetodos;
 using CursoCSharp.Colecoes;
 
-namespace CursoCSharp {
-    class Program {
-        static void Main(string[] args) {
+namespace CursoCSharp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
             var central = new CentralDeExercicios(new Dictionary<string, Action>() {
                 // Fundamentos
                 {"Primeiro Programa - Fundamentos", PrimeiroPrograma.Executar},
@@ -59,7 +62,7 @@ namespace CursoCSharp {
 
                 // Coleções
                 {"Array - Coleções", Colecoes.Array.Executar},
-                
+                {"List - Coleções", ColecoesList.Executar},
         });
 
             central.SelecionarEExecutar();
