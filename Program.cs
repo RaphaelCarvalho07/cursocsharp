@@ -58,7 +58,7 @@ namespace CursoCSharp
                 {"Struct - Classes e Métodos", ExemploStruct.Executar},
                 {"Struct Vs Classe - Classes e Métodos", StructVsClasse.Executar},
                 {"Valor Vs Referência - Classes e Métodos", ValorVsReferencia.Executar},
-                {"Parâmetro Padrão - Classes e Métodos", ParametroPadrao.Executar},
+                {"Parâmetro Com Valor Padrão - Classes e Métodos", ParametroPadrao.Executar},
 
                 // Coleções
                 {"Array - Coleções", Colecoes.Array.Executar},
@@ -66,6 +66,7 @@ namespace CursoCSharp
                 {"Array List - Coleções", ColecoesArrayList.Executar},
                 {"Set - Coleções", ColecoesSet.Executar},
                 {"Queue - Coleções", ColecoesQueue.Executar},
+                {"Igualdade - Coleções", Igualdade.Executar},
         });
 
             central.SelecionarEExecutar();
