@@ -1,4 +1,9 @@
-// Para ilustrar que alguma classe é herdeira de outra, usa-se a notação Dois Pontos `:`, seguido pelo identificador da classe herdada
+/* Para ilustrar que alguma classe é herdeira de outra, usa-se a notação Dois Pontos `:`, seguido pelo identificador da classe herdada
+   Quando se sobreescreve uma classe herdada, com o Override e método herdado setado como Virtual, você realmente sobreescreve o método
+   e quando há uma chamada, ele usa dentro da classe herdeira. 
+   Quando o método de classe superior é apenas ocultado dentro da chamada, quando há polimofirsmo com a classe pai, o método usado será
+   o ocultado anteriomente pela classe filho.  
+*/
 
 using System;
 
@@ -15,7 +20,7 @@ namespace CursoCSharp.OO
             VelocidadeMaxima = velocidadeMaxima;
         }
 
-        public int AlterarVelocidade(int delta)
+        protected int AlterarVelocidade(int delta)
         {
             int novaVelocidade = VelocidadeAtual + delta;
 
@@ -34,7 +39,7 @@ namespace CursoCSharp.OO
             return VelocidadeAtual;
         }
 
-        public int Acelerar()
+        public virtual int Acelerar()
         {
             return AlterarVelocidade(5);
         }
@@ -59,6 +64,17 @@ namespace CursoCSharp.OO
         {
 
         }
+
+        public override int Acelerar()
+        {
+            return AlterarVelocidade(15);
+        }
+
+        // Oculta o metodo da classe Pai
+        public new int Frear()
+        {
+            return AlterarVelocidade(-15);
+        }
     }
 
     class Heranca
@@ -78,6 +94,23 @@ namespace CursoCSharp.OO
             Console.WriteLine(carro2.Acelerar());
             Console.WriteLine(carro2.Frear());
             Console.WriteLine(carro2.Frear());
+            Console.WriteLine(carro2.Frear());
+
+            Console.WriteLine("Ferrari com tipo Carro...");
+            Carro carro3 = new Ferrari();
+            Console.WriteLine(carro3.Acelerar());
+            Console.WriteLine(carro3.Acelerar());
+            Console.WriteLine(carro3.Frear());
+            Console.WriteLine(carro3.Frear());
+            Console.WriteLine(carro3.Frear());
+
+            Console.WriteLine("Uno com tipo Carro...");
+            carro3 = new Uno(); //Polimorfismo
+            Console.WriteLine(carro3.Acelerar());
+            Console.WriteLine(carro3.Acelerar());
+            Console.WriteLine(carro3.Frear());
+            Console.WriteLine(carro3.Frear());
+            Console.WriteLine(carro3.Frear());
         }
     }
 }
