@@ -1,11 +1,11 @@
-using System;
+﻿using System;
 
 namespace Encapsulamento
 {
 
-    class FilhoReconhecido : SubCelebridade
+    public class FilhoReconhecido : SubCelebridade
     {
-        public void MeusAcessos()
+        public new void MeusAcessos()
         {
             Console.WriteLine("FilhoReconhecido...");
 
@@ -14,7 +14,7 @@ namespace Encapsulamento
             Console.WriteLine(NumeroCelular);
             Console.WriteLine(JeitoDeFalar);
             Console.WriteLine(SegredoFamilia);
-            Console.WriteLine(UsaMuitoPhotoshop);
+            // Console.WriteLine(UsaMuitoPhotoshop);
         }
     }
 }

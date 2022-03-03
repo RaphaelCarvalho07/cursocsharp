@@ -1,8 +1,8 @@
-using System;
+﻿using System;
 
 namespace Encapsulamento
 {
-    class SubCelebridade
+    public class SubCelebridade
     {
         // Todos
         public string InfoPublica = "Tenho um instagram!";

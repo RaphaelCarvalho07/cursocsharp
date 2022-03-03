@@ -1,0 +1,10 @@
+D:\Projetos\C#\CursoCSharp\Encapsulamento\bin\Debug\netcoreapp3.1\Encapsulamento.deps.json
+D:\Projetos\C#\CursoCSharp\Encapsulamento\bin\Debug\netcoreapp3.1\Encapsulamento.dll
+D:\Projetos\C#\CursoCSharp\Encapsulamento\bin\Debug\netcoreapp3.1\Encapsulamento.pdb
+D:\Projetos\C#\CursoCSharp\Encapsulamento\obj\Debug\netcoreapp3.1\Encapsulamento.csproj.AssemblyReference.cache
+D:\Projetos\C#\CursoCSharp\Encapsulamento\obj\Debug\netcoreapp3.1\Encapsulamento.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\C#\CursoCSharp\Encapsulamento\obj\Debug\netcoreapp3.1\Encapsulamento.AssemblyInfoInputs.cache
+D:\Projetos\C#\CursoCSharp\Encapsulamento\obj\Debug\netcoreapp3.1\Encapsulamento.AssemblyInfo.cs
+D:\Projetos\C#\CursoCSharp\Encapsulamento\obj\Debug\netcoreapp3.1\Encapsulamento.csproj.CoreCompileInputs.cache
+D:\Projetos\C#\CursoCSharp\Encapsulamento\obj\Debug\netcoreapp3.1\Encapsulamento.dll
+D:\Projetos\C#\CursoCSharp\Encapsulamento\obj\Debug\netcoreapp3.1\Encapsulamento.pdb
