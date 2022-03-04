@@ -79,6 +79,7 @@ namespace CursoCSharp
                 {"Polimoformismo - OO",  Polimoformismo.Executar},
                 {"Abstract - OO",  Abstract.Executar},
                 {"Interface - OO",  Interface.Executar},
+                {"Sealed - OO",  Sealed.Executar},
         });
 
             central.SelecionarEExecutar();
