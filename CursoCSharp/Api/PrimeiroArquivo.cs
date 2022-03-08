@@ -19,7 +19,7 @@ namespace CursoCSharp.Api
     {
         public static void Executar()
         {
-            var path = @"~/primeiro_arquivo.txt".ParseHome();
+            var path = @"D:\Projetos\C#\CursoCSharp\Arquivos/primeiro_arquivo.txt".ParseHome();
 
             if (!File.Exists(path)) {
                 using (StreamWriter sw = File.CreateText(path))
