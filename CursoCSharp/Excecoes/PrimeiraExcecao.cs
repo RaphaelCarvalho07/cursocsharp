@@ -24,7 +24,6 @@ namespace CursoCSharp.Excecoes
         }
     }
 
-
     class PrimeiraExcecao
     {
         public static void Executar()
@@ -35,10 +34,12 @@ namespace CursoCSharp.Excecoes
             {
                 conta.Sacar(1600);
                 Console.WriteLine("Retirada com Sucesso!");
-            } catch (Exception ex)
+            }
+            catch (Exception ex)
             {
                 Console.WriteLine(ex.Message);
-            } finally
+            }
+            finally
             {
                 Console.WriteLine("Obrigado!");
             }
