@@ -29,8 +29,7 @@ namespace CursoCSharp.Api
             Console.WriteLine("ToString 2: " + intervalo.ToString("G"));
             Console.WriteLine("ToString 3: " + intervalo.ToString("c"));
 
-            Console.WriteLine("Parse: " +
-                TimeSpan.Parse("01:02:03").TotalMilliseconds);
+            Console.WriteLine("Parse: " + TimeSpan.Parse("01:02:03").TotalMilliseconds);
         }
     }
 }
