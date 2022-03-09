@@ -20,9 +20,9 @@ namespace CursoCSharp.Api
 
         public static void Executar()
         {
-            var caminhoOrigem = @"~/arq_origem.txt".ParseHome();
-            var caminhoDestino = @"~/arq_destino.txt".ParseHome();
-            var caminhoCopia = @"~/arq_copia.txt".ParseHome();
+            var caminhoOrigem = @"D:\Projetos\C#\CursoCSharp\Arquivos\arq_origem.txt".ParseHome();
+            var caminhoDestino = @"D:\Projetos\C#\CursoCSharp\Arquivos\arq_destino.txt".ParseHome();
+            var caminhoCopia = @"D:\Projetos\C#\CursoCSharp\Arquivos\arq_copia.txt".ParseHome();
 
             ExcluirSeExistir(caminhoOrigem, caminhoDestino, caminhoCopia);
 
