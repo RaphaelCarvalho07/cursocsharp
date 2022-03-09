@@ -7,9 +7,9 @@ namespace CursoCSharp.Api
     {
         public static void Executar()
         {
-            var novoDir = @"D:\Projetos\C#\CursoCSharp\Arquivos\PastaCSharp".ParseHome();
-            var novoDirDestino = @"D:\Projetos\C#\CursoCSharp\Arquivos\PastaCSharpDestino".ParseHome();
-            var dirProjeto = @"D:\Projetos\C#\CursoCSharp\CursoCSharp".ParseHome();
+            var novoDir = @"D:\Projetos\C#\CursoCSharp\Arquivos\PastaCSharp";
+            var novoDirDestino = @"D:\Projetos\C#\CursoCSharp\Arquivos\PastaCSharpDestino";
+            var dirProjeto = @"D:\Projetos\C#\CursoCSharp\CursoCSharp";
 
             if (Directory.Exists(novoDir))
             {
